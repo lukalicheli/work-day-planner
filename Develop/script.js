@@ -27,5 +27,21 @@ function display() {
 }
 display();
 
+// This code is to put the right color for the hours
+function color() {
+    var hourMoment = moment().hours();
+    $(".time-block").each(function() {
+        var hour = parseInt($(this).attr("id"));
+        if (hour > hourMoment) {
+            $(this).addClass("future");
+        } else if (hour === hourMoment) {
+            $(this).addClass("present");
+        } else {
+            $(this).addClass("past");
+        }
+    })
+};
+color();
+
 // Add event listener on save button
 saveBtn.on("click", saveInput);
