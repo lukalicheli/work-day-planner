@@ -10,5 +10,5 @@
 
 Links: 
 
-https://lukalicheli.github.io/work-day-planner/
-https://github.com/lukalicheli/work-day-planner
+* https://lukalicheli.github.io/work-day-planner/
+* https://github.com/lukalicheli/work-day-planner
