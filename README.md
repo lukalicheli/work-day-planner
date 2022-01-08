@@ -7,3 +7,8 @@
 * Lastly I deleted future, present, and now, from the html classes and made a function where it would match up the hour with the div id's to display the right css style on the divs of the description. 
 * I had to delete Repository that I made yesterday on the 6th of January because I changed up my whole gameplan. In office hours they showed different methods of doing things and I figured I'd start over. 
 * I am going to make a commit for every function added so I have at least some history of commits. 
+
+Links: 
+
+https://lukalicheli.github.io/work-day-planner/
+https://github.com/lukalicheli/work-day-planner
