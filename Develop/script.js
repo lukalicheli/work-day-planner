@@ -14,6 +14,18 @@ function saveInput() {
     localStorage.setItem(time, description);
 };
 
+// This is so once you leave page and come back, whatever was stored in the local storage to be 
+// on the page.
+function display() {
+    $(".hour").each(function() {
+        var hour = $(this).text();
+        var description = localStorage.getItem(hour);
+        if(description !== null) {
+            $(this).siblings(".description").val(description);
+        }
+    });
+}
+display();
 
 // Add event listener on save button
 saveBtn.on("click", saveInput);
